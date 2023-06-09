@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot UI testing 1`] = `"Name : BruceName : DianaName : nameFirstname: Esteban Lastname: CataneaFullname: Esteban CataneaList of itemsPC 1900.- Delete an item Phone 400.- Delete an item Laptop 1200.- Delete an item Computed : 3500.-Method : 3500.- Add an item"`;
