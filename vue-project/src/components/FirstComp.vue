@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { defineComponent } from 'vue'
-
+import { defineComponent } from 'vue'
 export default defineComponent({
   name: "FirstComp",
   props: ['name'],
@@ -8,7 +7,8 @@ export default defineComponent({
     return {
       className: 'className'
     }
-  }
+  },
+  methods: {},
 })
 </script>
 
