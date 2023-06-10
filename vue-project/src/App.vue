@@ -1,12 +1,14 @@
 <script lang="ts">
   import FirstComp from './components/FirstComp.vue'
   import SecondComp from './components/SecondComp.vue'
+  import ThirdComp from './components/ThirdComp.vue'
   import { defineComponent } from 'vue'
   export default defineComponent({
     name: "App",
     components: {
       FirstComp,
-      SecondComp
+      SecondComp,
+      ThirdComp
     },
     data() {
       return {
@@ -21,6 +23,7 @@
     <FirstComp name="Diana" />
     <FirstComp name="name" />
     <SecondComp firstName="Esteban" lastName="Catanea" />
+    <ThirdComp />
   </div>
 </template>
 
