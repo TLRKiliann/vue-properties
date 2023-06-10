@@ -6,6 +6,34 @@ https://github.com/vuejs/create-vue
 
 $ npm create vue@3
 
+- typescript
+- vitest
+- prettier
+- eslint
+- cypress
+
+```
+cd vue-project
+npm install
+npm run format
+npm run dev
+```
+
+## FirstComp
+
+- props
+
+## SecondComp
+
+- methods
+- computed
+
+## ThirdComp
+
+- watch
+
+with immediate & deep
+
 ## Project Setup
 
 ```sh

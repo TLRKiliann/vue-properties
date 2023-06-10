@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ThirdComp > snapshot UI testing 1`] = `
+"Watchers0incrementdecrementSupermanNarnia[
+  \\"Batman\\",
+  \\"SuperWoman\\"
+]Add movie"
+`;
