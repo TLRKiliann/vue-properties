@@ -19,24 +19,24 @@ export default defineComponent({
   watch: {
     volume(newValue: number, oldValue: number): void {
         if (newValue > oldValue && newValue === 18) {
-            alert("It's over 16")
+          alert("It's over 16")
         }
     },
     movie: {
         handler(newValue: string): void {
-            console.log(`simple movie ${newValue}`)
+          console.log(`simple movie ${newValue}`)
         },
         immediate: true,
     },
     movieObj: {
         handler(newValue: string): void {
-            console.log(`Movie object ${newValue}`)
+          console.log(`Movie object ${newValue}`)
         },
         deep: true,
     },
     movieList: {
         handler(newValue: string): void {
-            console.log(`New movie ${newValue}`)
+          console.log(`New movie ${newValue}`)
         },
         deep: true,
     }
